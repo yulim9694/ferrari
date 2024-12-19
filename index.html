@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페라리 로마</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- gsap -->
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="h_wrap">
+                <h1><a href="#"><img src="imges/ferrari_logo_roma.png" alt="페라리 로마 로고"></a></h1>
+                
+                <button class="menu_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="#performace">PERFORMACE</a></li>
+                        <li><a href="#design">DESIGN</a></li>
+                        <li><a href="#technology">TECHNOLOGY</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#specs">TECH SPECS</a></li>
+                    </ul>
+                    <ul class="shop">
+                        <li><a href="#">견적문의</a></li>
+                        <li><a href="#">시승신청</a></li>
+                    </ul>
+                    <img src="imges/ferrari_logo_white.png" alt="페라리 로고">
+                </nav>
+                <!-- nav -->
+            </div>
+        </header>
+        <!-- header -->
+
+        <section id="intro">
+            <div class="video_wrap">
+                <video src="imges/main_video.mp4" muted autoplay loop poster="imges/main_video_poster.jpg">
+                    해당 확장자는 지원하지 않습니다.
+                </video>
+            </div>
+            <div class="bg_text">   
+                LA<br>
+                NUOVA<br>
+                DOLCE<br>
+                VITA
+            </div>
+            <div class="i_text">
+                <div class="text t1 title">
+                    ROMA
+                </div>
+                <div class="text t2">
+                    시대를 초월한 우아함
+                </div>
+                <div class="text t3">
+                    1960년대의 로마,<br>
+                    평온하고 즐거운 삶을<br>
+                    현대적으로.<br>
+                </div>
+                <div class="text t4">
+                    세련된 비율.<br>
+                    시대를 초월한 디자인.<br>
+                    탁월한 성능과 핸들링.<br>
+                </div>
+            </div>
+
+        </section>
+        <!-- intro -->
+       
+
+        <section id="intro-fin">
+            <div class="if_wrap">
+                <div class="intro_img"></div>
+                <div class="if_text">
+                    <div class="t1">FERRARI</div>
+                    <div class="t2">ROMA</div>
+                </div>
+            </div>
+        </section>
+        <!-- intro-fin -->
+
+
+
+        <section id="performace">
+            <div class="swiper p_wrap">
+                <h2>PERFORMACE</h2>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1">
+                        <div class="logo">
+                            <img src="imges/ferrari_logo_black.png" alt="페라리 로고">
+                            <div class="logo_name">FERRARI ROMA</div>
+                        </div>
+                        <div class="number_container">
+                            <div class="number">620</div>
+                            <div class="unit">CV</div>
+                        </div>
+                        <div class="property">최대 마력</div>
+                    </div>
+                    <div class="swiper-slide s2">
+                        <div class="logo">
+                            <img src="imges/ferrari_logo_black.png" alt="페라리 로고">
+                            <div class="logo_name">FERRARI ROMA</div>
+                        </div>
+                        <div class="number_container">
+                            <div class="number">3.4</div>
+                            <div class="unit">SEC</div>
+                        </div>
+                        <div class="property">0-시속 100KM</div>
+                    </div>
+                    <div class="swiper-slide s3">
+                        <div class="logo">
+                            <img src="imges/ferrari_logo_black.png" alt="페라리 로고">
+                            <div class="logo_name">FERRARI ROMA</div>
+                        </div>
+                        <div class="number_container">
+                            <div class="number">320</div>
+                            <div class="unit">KM/H</div>
+                        </div>
+                        <div class="property">최고 속력</div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+            </div>
+        </section>
+        <!-- performace -->
+
+
+        <section id="design">
+            <div id="exterior">
+                <div class="ed_wrap">
+                    <div class="ed_1">
+                        <img src="imges/exterior.jpg" alt="exterior_design">
+                        <div class="letter">
+                            <h2>외부 디자인</h2>
+                            <h3>시대를 초월한 우아함</h3>
+                            <p>깔끔하고 순수한 페라리 로마의 디자인은 다양한 요소들을 완벽하게 공존할 수 있도록 페라리 스타일링 센터에서 디자인했습니다. 질서정연한 미니멀리즘을 강조하기 위해 불필요한 디테일은 모두 제거 되었습니다.</p>
+                        </div>
+                    </div>
+                    <div class="design_swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="imges/exterior_1.jpg" alt="exterior_design_1"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_2.jpg" alt="exterior_design_2"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_3.jpg" alt="exterior_design_3"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_4.jpg" alt="exterior_design_4"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_5.jpg" alt="exterior_design_5"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_6.jpg" alt="exterior_design_6"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_7.jpg" alt="exterior_design_7"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_8.jpg" alt="exterior_design_8"></div>
+                            <div class="swiper-slide"><img src="imges/exterior_9.jpg" alt="exterior_design_9"></div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- exterior -->
+
+            <div id="view">
+                <h2>VIEW</h2>
+                <div class="v_wrap">
+                    <div class="v_img">
+                        <img src="imges/view/Roma_0.jpg" alt="view_img" id="view_img" draggable="false">
+                    </div>
+                    <div class="v_cover">
+                        <div class="v_btn">
+                            <img src="imges/360-degree.png" alt="360-degree">
+                        </div>
+                        <span>클릭하여 둘러보기</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 3dview -->
+
+            <div id="interior">
+                <div class="id_wrap">
+                    <div class="id_1">
+                        <img src="imges/interior.jpg" alt="interior">
+                        <div class="letter">
+                            <h2>내부 디자인</h2>
+                            <h3>유연한 대칭구조</h3>
+                            <p>양감을 줄이고 스트랩으로 주변을 강조해 만들어진 두 개의 운전석은 대시보드에서 시작해 뒷좌석까지 감싸듯 이어지는 형태로, 대시보드, 도어, 뒷좌석 및 센터 터널을 유기적으로 통합합니다.</p>
+                        </div>
+                    </div>
+                    <div class="design_swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="imges/interior_1.jpg" alt="interior_design_1"></div>
+                            <div class="swiper-slide"><img src="imges/interior_2.jpg" alt="interior_design_2"></div>
+                            <div class="swiper-slide"><img src="imges/interior_3.jpg" alt="interior_design_3"></div>
+                            <div class="swiper-slide"><img src="imges/interior_4.jpg" alt="interior_design_4"></div>
+                            <div class="swiper-slide"><img src="imges/interior_5.jpg" alt="interior_design_5"></div>
+                            <div class="swiper-slide"><img src="imges/interior_6.jpg" alt="interior_design_6"></div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- interior -->
+
+            <div id="color">
+                <div class="cd_wrap">
+                    <h2>COLOR</h2>
+                    <div class="cd_con">
+                        <div class="cd_img">
+                            <img src="imges/color/exterior/color_exterior1.jpg" alt="color_exterior_img">
+                        </div>
+                        <div class="cd_pal">
+                            <div class="cd_btn">
+                                <button class="active">EXTERIOR</button>
+                                <button>INTERIOR</button>
+                            </div>
+                            <div class="cd_name">
+                                <div>BIANCO AVUS</div>
+                            </div>
+                            <div class="cd_palette">
+                                <div class="cd_pal_ex palette">
+                                    <button class="active"><img src="imges/color/palette/pallette_ex_1.png" alt="palette_1"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_2.png" alt="palette_2"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_3.png" alt="palette_3"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_4.png" alt="palette_4"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_5.png" alt="palette_5"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_6.png" alt="palette_6"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_7.png" alt="palette_7"></button>
+                                    <button><img src="imges/color/palette/pallette_ex_8.png" alt="palette_8"></button>
+                                </div>
+                                <div class="cd_pal_in palette">
+                                    <button><img src="imges/color/palette/pallette_in_1.png" alt="palette_1"></button>
+                                    <button><img src="imges/color/palette/pallette_in_2.png" alt="palette_2"></button>
+                                    <button><img src="imges/color/palette/pallette_in_3.png" alt="palette_3"></button>
+                                    <button><img src="imges/color/palette/pallette_in_4.png" alt="palette_4"></button>
+                                    <button><img src="imges/color/palette/pallette_in_5.png" alt="palette_5"></button>
+                                    <button><img src="imges/color/palette/pallette_in_6.png" alt="palette_6"></button>
+                                    <button><img src="imges/color/palette/pallette_in_7.png" alt="palette_7"></button>
+                                    <button><img src="imges/color/palette/pallette_in_8.png" alt="palette_8"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!-- color -->
+        </section>
+        <!-- design -->
+
+        <section id="technology">
+            <div class="t_wrap">
+                <h2>TECHNOLOGY</h2>
+                <div class="t_con t1" id="ani_wrap_1">
+                    <div class="t_img"><img src="imges/tech1.jpg" alt="파워드레인"></div>
+                    <div class="letter">
+                        <h2 class="ani_h2">파워드레인</h2>
+                        <h3 class="ani_h3">새로운 8단 듀얼 클러치 변속기</h3>
+                        <p class="ani_p">페라리 로마의 620마력 엔진은 4년 연속 세계 올해의 엔진으로 선정된 V8 터보 제품입니다. 로마에 쓰인 페라리 V8 엔진의 주요 혁신은 새로운 캠 프로파일, 터빈회전 수를 측정하고 분당 최대 터빈 회전 수를 5,000rpm까지 높일 수 있는 속도 센서, 이와 같은 성능을 내면서도 가장 엄격한 오염 방지 기준을 충족하는 가솔린 미립자 필터를 도입했습니다.</p>
+                    </div>
+                </div>
+                <div class="t_con t2"  id="ani_wrap_2">
+                    <div class="t_img"><img src="imges/tech2.jpg" alt="파워드레인"></div>
+                    <div class="letter">   
+                        <h2 class="ani_h2">공기역학</h2>
+                        <h3 class="ani_h3">모바일 리어 스포일러</h3>
+                        <p class="ani_p">페라리의 엔지니어들은 페라리 혈통의 순수한 스타일을 유지하면서 동급 최고의 성능을 보장하기 위해 여러 첨단 기술을 개발했습니다. 차의 우아하고 순수한 디자인을 유지하도록 셀계되었으며 특히 리어 스크린에 통합한 모바일 리어 스포일러가 가장 돋보입니다.</p>
+                    </div>    
+                </div>
+                <div class="t_con t3"  id="ani_wrap_3">
+                    <div class="t_img"><img src="imges/tech3.jpg" alt="파워드레인"></div>
+                    <div class="letter">
+                        <h2 class="ani_h2">차량동역학</h2>
+                        <h3 class="ani_h3">탁월한 운전의 즐거움</h3>
+                        <p class="ani_p">페라리 로마의 차량동역한 개발의 주안점은 놀라운 중량 감소와 가장 진화된 형태의 사이드 슬립 컨롤(F1-트랙션 컨트롤, 전자식 디퍼렌셜 3, 다이나믹 인핸스 시스템 등을 포함)을 통해 탁월한 주행의 즐거움과 편암함을 제공하는 것입니다.</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <!-- technology -->
+
+        <section id="gallery">
+            <div class="g_wrap">
+                <h2>GALLERY</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide g1">
+                            <img src="imges/gallery_1.jpg" alt="glalery_1">
+                            <img src="imges/gallery_2.jpg" alt="glalery_2">
+                        </div>
+                        <div class="swiper-slide g2">
+                            <img src="imges/gallery_3.jpg" alt="glalery_3">
+                            <img src="imges/gallery_4.jpg" alt="glalery_4">
+                        </div>
+                        <div class="swiper-slide g3">
+                            <img src="imges/gallery_5.jpg" alt="glalery_5">
+                            <img src="imges/gallery_6.jpg" alt="glalery_6">
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <div class="g_pop">
+                <div class="pop_img">
+                    <img src="" alt="팝업이미지">
+                </div>
+                <div class="close_btn">
+                    <img src="imges/close.png" alt="닫기버튼">
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+
+        <section id="specs">
+            <div class="s_wrap">
+                <h2>TECH SPECS</h2>
+                <div class="spc">
+                    <div class="s_con s1">
+                        <div class="head">
+                            <div class="number">01</div>
+                            <div class="title">성능</div>
+                            <div class="btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="con">
+                                <div class="left">3.4초</div>
+                                <div class="right">0-시속 100km</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">9.3초</div>
+                                <div class="right">0-시속 200km</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">320km/h</div>
+                                <div class="right">최고속도</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s_con s2">
+                        <div class="head">
+                            <div class="number">02</div>
+                            <div class="title">엔진</div>
+                            <div class="btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="con">
+                                <div class="left">V8 - 90°</div>
+                                <div class="right">타입</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">3,855cc</div>
+                                <div class="right">총 배기량</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">620 마력</div>
+                                <div class="right">최고출력</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">86.5 x 82mm</div>
+                                <div class="right">보어 및 스트로크</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">3000 ~ 5750rpm</div>
+                                <div class="right">최대토크</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">7500rpm</div>
+                                <div class="right">최대 엔진회전수</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">9.45:1</div>
+                                <div class="right">압축비</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s_con s3">
+                        <div class="head">
+                            <div class="number">03</div>
+                            <div class="title">연료 소비량과 CO2 배출량</div>
+                            <div class="btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="section">
+                                <div class="sub_title">연료 소비량</div>
+                                <div class="con">
+                                    <div class="left">17.8l / 100km</div>
+                                    <div class="right">저속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">10.8l / 100km</div>
+                                    <div class="right">중속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">9.7L / 100km</div>
+                                    <div class="right">고속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">10.3L / 100km</div>
+                                    <div class="right">초고속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">11.2L / 100km</div>
+                                    <div class="right">복합</div>
+                                </div>
+                            </div>
+                            <div class="section">
+                                <div class="sub_title">CO2 배출량</div>
+                                <div class="con">
+                                    <div class="left">404G/km</div>
+                                    <div class="right">저속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">246G/km</div>
+                                    <div class="right">중속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">220G/km</div>
+                                    <div class="right">고속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">235G/km</div>
+                                    <div class="right">초고속</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">255G/km</div>
+                                    <div class="right">복합</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="s_con s4">
+                        <div class="head">
+                            <div class="number">04</div>
+                            <div class="title">크기와 중량</div>
+                            <div class="btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="con">
+                                <div class="left">4,656mm</div>
+                                <div class="right">길이</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">1,974mm</div>
+                                <div class="right">너비</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">1,301mm</div>
+                                <div class="right">높이</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">1,472kg</div>
+                                <div class="right">건조중량</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">2,670mm</div>
+                                <div class="right">휠베이스</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">1,652mm</div>
+                                <div class="right">앞 트랙</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">1,679mm</div>
+                                <div class="right">뒤 트랙</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">1,570kg</div>
+                                <div class="right">전비 중량</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">앞 50% – 뒤 50%</div>
+                                <div class="right">무게배분</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">2.37kg/마력</div>
+                                <div class="right">건조중량/출력</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s_con s5">
+                        <div class="head">
+                            <div class="number">05</div>
+                            <div class="title">변속기와 전자 제어장치</div>
+                            <div class="btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="con">
+                                <div class="left">F1 듀얼클러치</div>
+                                <div class="right">8단</div>
+                            </div>
+                            <div class="con">
+                                <div class="left">SSC 6.0</div>
+                                <div class="right">사이드슬립</div>
+                            </div>
+                            <div class="con">
+                                <div class="one">EPS</div>
+                            </div>
+                            <div class="con">
+                                <div class="one">VDC</div>
+                            </div>
+                            <div class="con">
+                                <div class="one">EBD 포함 ABS </div>
+                            </div>
+                            <div class="con">
+                                <div class="one">F1-TCS</div>
+                            </div>
+                            <div class="con">
+                                <div class="one">E-Diff3</div>
+                            </div>
+                            <div class="con">
+                                <div class="one">SSC 6.0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s_con s6">
+                        <div class="head">
+                            <div class="number">06</div>
+                            <div class="title">타이어와 브레이크</div>
+                            <div class="btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="section">
+                                <div class="sub_title">타이어</div>
+                                <div class="con">
+                                    <div class="left">245/35 ZR20</div>
+                                    <div class="right">앞</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">285/35 ZR20</div>
+                                    <div class="right">뒤</div>
+                                </div>
+                            </div>
+                            <div class="section">
+                                <div class="sub_title">브레이크</div>
+                                <div class="con">
+                                    <div class="left">390mm x 34mm</div>
+                                    <div class="right">앞</div>
+                                </div>
+                                <div class="con">
+                                    <div class="left">360mm x 32mm</div>
+                                    <div class="right">뒤</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- specs -->
+        <footer>
+            <div class="f_wrap">
+                <div class="f_con">
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="#none">사이트맵</a></li>
+                            <li><a href="#none">이용약관</a></li>
+                            <li><a href="#none">개인정보 처리방침</a></li>
+                            <li><a href="#none">저작권 안내</a></li>
+                            <li><a href="#none">보증안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#none"><img src="imges/sns_facebook.png" alt="sns_facebook"></a></li>
+                            <li><a href="#none"><img src="imges/sns_instagram.png" alt="sns_instagram"></a></li>
+                            <li><a href="#none"><img src="imges/sns_youtube.png" alt="sns_youtube"></a></li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="f_logo">
+                    <a href="#"><img src="imges/ferrari_logo_white.png" alt="페라리홈페이지"></a>
+                </div>
+                <div class="COPYRIGHT">COPYRIGHT &COPY; 2023 yurim. all rights reserved.</div>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </div>
+</body>
+</html>
